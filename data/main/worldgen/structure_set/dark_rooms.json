@@ -1,0 +1,20 @@
+{
+  
+  "structures": [
+    {
+      "structure": "main:dark_room",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "exclusion_zone": {
+      "other_set": "minecraft:ancient_cities",
+      "chunk_count": 4
+    },
+    "salt": 321784,
+    "spacing": 4,
+    "separation": 1,
+    "spread_type": "triangular"
+  }
+}

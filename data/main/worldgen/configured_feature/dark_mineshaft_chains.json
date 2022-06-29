@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "matching_blocks",
+      "blocks": [
+        "air",
+        "cave_air",
+        "void_air",
+        "structure_void",
+        "cave_vines",
+        "cave_vines_plant",
+        "glow_lichen",
+        "sculk_vein"
+      ],
+      "offset": [0, -1, 0]
+    },
+    "direction": "up",
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 10,
+            "max_inclusive": 128
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:chain"
+          }
+        }
+      },
+      {
+        "height": {
+          "type": "constant",
+          "value": 128
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:polished_deepslate_wall"
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

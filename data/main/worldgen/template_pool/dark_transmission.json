@@ -1,0 +1,15 @@
+{
+  "name": "main:deep_transition",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "main:dark-transmission/transmission-1",
+        "processors": "main:dark_transmission"
+      }
+    }
+  ]
+}

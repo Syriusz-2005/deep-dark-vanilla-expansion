@@ -1,0 +1,15 @@
+{
+  "name": "main:small_sculk_patch",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "main:sculk/small_sculk_patch",
+        "processors": "main:dark_transmission"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "main:dark_transmission",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "exclusion_zone": {
+      "other_set": "minecraft:ancient_cities",
+      "chunk_count": 7
+    },
+    "type": "random_spread",
+    "salt": 78871,
+    "spacing": 7,
+    "separation": 2,
+    "spread_type": "linear"
+  }
+}

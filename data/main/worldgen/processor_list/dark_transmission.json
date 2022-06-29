@@ -1,0 +1,26 @@
+{
+  "processors": [
+    {
+      "processor_type": "block_rot",
+      "integrity": 0.4,
+      "rottable_blocks": [
+        "cobweb"
+      ]
+    },
+    {
+      "processor_type": "block_rot",
+      "integrity": 0.93,
+      "rottable_blocks": [
+        "gray_carpet"
+      ]
+    },
+    {
+      "processor_type": "block_rot",
+      "integrity": 0.6,
+      "rottable_blocks": [
+        "candle",
+        "redstone_wire"
+      ]
+    }
+  ]
+}

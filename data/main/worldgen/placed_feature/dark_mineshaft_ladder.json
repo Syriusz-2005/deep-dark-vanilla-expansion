@@ -1,0 +1,16 @@
+{
+  "feature": "main:dark_mineshaft_ladder",
+  "placement": [
+    {
+      "type": "environment_scan",
+      "allowed_search_condition": {
+        "type": "minecraft:true"
+      },
+      "max_steps": 20,
+      "direction_of_search": "down",
+      "target_condition": {
+        "type": "minecraft:solid"
+      }
+    }
+  ]
+}

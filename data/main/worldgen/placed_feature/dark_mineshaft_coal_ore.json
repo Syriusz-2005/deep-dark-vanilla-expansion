@@ -1,0 +1,18 @@
+{
+  "feature": "main:dark_mineshaft_coal_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 15,
+          "min_inclusive": 4
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

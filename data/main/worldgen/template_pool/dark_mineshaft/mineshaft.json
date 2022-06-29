@@ -1,0 +1,87 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "main:dark_mineshaft/dark-mineshaft-1",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "main:dark_mineshaft/dark-cross-1",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "main:dark_mineshaft/dark-cross-2",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "main:dark_mineshaft/dark-mineshaft-ending-1",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "main:dark_mineshaft/dark-mineshaft-shaft",
+          "processors": "main:dark_mineshaft"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "main:dark_mineshaft",
+          "location": "main:dark_mineshaft/dark-mineshaft-shaft-end"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft",
+        "location": "main:dark_mineshaft/dark-mineshaft-room-1"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft",
+        "location": "main:dark_mineshaft/dark-mineshaft-room-2"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "main:dark_mineshaft",
+        "location": "main:dark_mineshaft/dark-mineshaft-shaft-2"
+      },
+      "weight": 1
+    }
+  ],
+  "name": "minecraft:dark_mineshaft/mineshaft",
+  "fallback": "minecraft:empty"
+}

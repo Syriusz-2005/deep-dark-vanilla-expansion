@@ -1,0 +1,57 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "name": "redstone",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "add": true,
+              "count": {
+                "min": 5,
+                "max": 40
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "redstone_block",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "add": true,
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/ancient_city",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "limit_count",
+              "limit": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

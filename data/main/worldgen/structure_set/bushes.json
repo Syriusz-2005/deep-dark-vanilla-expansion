@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "main:bush",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "random_spread",
+    "salt": 90421,
+    "spacing": 8,
+    "separation": 1,
+    "spread_type": "linear"
+  }
+}
