@@ -1,0 +1,20 @@
+{
+  "name": "structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syriusz-2005/deep-dark-vanilla-expansion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syriusz-2005/deep-dark-vanilla-expansion/issues"
+  },
+  "homepage": "https://github.com/Syriusz-2005/deep-dark-vanilla-expansion#readme"
+}
