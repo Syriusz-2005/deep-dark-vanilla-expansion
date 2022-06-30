@@ -7,7 +7,7 @@ const zip = new JsZip();
 (async () => {
   try {
     const mcMeta = await fs.readFile('./pack.mcmeta');
-    zip.file('./pack.js', mcMeta);
+    zip.file('pack.mcmeta', mcMeta);
 
     /**
      * @param {string[]} paths
