@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "node pack.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Syriusz-2005/deep-dark-vanilla-expansion/issues"
   },
-  "homepage": "https://github.com/Syriusz-2005/deep-dark-vanilla-expansion#readme"
+  "homepage": "https://github.com/Syriusz-2005/deep-dark-vanilla-expansion#readme",
+  "dependencies": {
+    "jszip": "^3.10.0"
+  }
 }
